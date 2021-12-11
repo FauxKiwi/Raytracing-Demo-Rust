@@ -1,0 +1,16 @@
+[package]
+name = "Raytracing-Demo-Rust"
+version = "0.1.0"
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+gl = "0.14.0"
+
+glm = "0.2.3"
+num-traits = "0.2.14"
+
+[dependencies.glfw]
+git = "https://github.com/bjz/glfw-rs.git"
+default-features = false
